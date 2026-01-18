@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kotle9ka/goit-js-hw-17#readme",
   "dependencies": {
     "handlebars": "^4.7.8",
+    "handlebars-loader": "^1.7.3",
     "parcel": "^2.16.3",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-transformer-hbs": "^1.0.4"
