@@ -1,11 +1,13 @@
 import ApiService from "./js/function.js";
-import fotoTemplate from "./templates/fotocard.hbs";
 
 const refs = {
   searchForm: document.querySelector(".js-search-form"),
   articlesContainer: document.querySelector(".js-articles-container"),
   loadMoreBtn: document.querySelector('[data-action="load-more"]'),
 };
+
+const template = document.getElementById("fotocard-template").innerHTML;
+const fotoTemplate = Handlebars.compile(template);
 
 const apiService = new ApiService();
 
