@@ -1,4 +1,4 @@
-import ApiService from "./js/function";
+import ApiService from "./js/function.js";
 import fotoTemplate from "./templates/fotocard.hbs";
 
 const refs = {
